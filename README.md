@@ -26,3 +26,26 @@ This mini-app demonstrates the core architectural patterns required for real-tim
    ```bash
    git clone [https://github.com/rathans48/CLI-Chatbot.git](https://github.com/rathans48/CLI-Chatbot.git)
    cd CLI-Chatbot
+
+2. **Set up a Virtual Environment:**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install Dependencies:**
+   ```bash
+   pip install openai python-dotenv
+   ```
+
+4. **Environment Variables Configuration:**
+   Create a .env file in the root directory matching the structural outline in .env.example:
+   ```
+   OPENROUTER_API_KEY=your_secured_openrouter_token_here
+   ```
+
+5. **Execution & Usage**
+   Open the CLI system by executing the script:
+   ```Bash
+   python chatbot.py
+   ```
