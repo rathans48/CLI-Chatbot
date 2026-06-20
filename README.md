@@ -50,10 +50,10 @@ This mini-app demonstrates the core architectural patterns required for real-tim
    python chatbot.py
    ```
 
-   **Prompt Engineering Tests Conducted**
+   ## Prompt Engineering Tests Conducted
    To test the dynamic streaming processing pipeline, heavy linguistic workloads were tested to verify structural token assembly speeds over the network layer:
    Short-Form Tests (High Velocity): Structured haikus generation (evaluated under 0.15 seconds execution speeds).
    Long-Form Tests (Heavy Structural Workloads): Comprehensive analytical multi-paragraph essays tracking database tokenization parameters and virtual system economics.
    
-   **Capstone Link**
+   ## Capstone Link
    The client initialization structures, context looping architectures, and streaming token extraction logic established in this script serve as the direct foundational backplane for the orchestration modules inside the final DevMind Software Engineering Assistant deployment layers.
